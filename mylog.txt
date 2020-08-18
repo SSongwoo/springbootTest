@@ -1,0 +1,49 @@
+[INFO ] 14:46:28.115 com.board.BoardApplication - Starting BoardApplication on DESKTOP-TSL2OJ7 with PID 8140 (C:\develop\workspace\Board\bin\main started by ecosense in C:\develop\workspace\Board)
+[INFO ] 14:46:28.116 com.board.BoardApplication - No active profile set, falling back to default profiles: default
+[INFO ] 14:46:28.276 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 14:46:28.280 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[INFO ] 14:46:28.399 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 14:46:28.399 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 14:46:28.400 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:46:28.400 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+[INFO ] 14:46:28.414 o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:46:28.414 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 297 ms
+[INFO ] 14:46:28.432 com.zaxxer.hikari.HikariDataSource - HikariPool-23 - Starting...
+[INFO ] 14:46:28.436 jdbc.connection - 181. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[INFO ] 14:46:28.436 com.zaxxer.hikari.pool.PoolBase - HikariPool-23 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy.getNetworkTimeout()I)
+[INFO ] 14:46:28.439 com.zaxxer.hikari.HikariDataSource - HikariPool-23 - Start completed.
+[INFO ] 14:46:28.457 o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 14:46:28.471 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO ] 14:46:28.481 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 14:46:28.481 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 14:46:28.495 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 14:46:28.543 jdbc.connection - 182. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[INFO ] 14:46:28.546 jdbc.connection - 183. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[INFO ] 14:46:28.549 jdbc.connection - 184. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[INFO ] 14:46:28.551 jdbc.connection - 185. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[INFO ] 14:46:28.554 jdbc.connection - 186. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[INFO ] 14:46:28.556 jdbc.connection - 187. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[INFO ] 14:46:28.559 jdbc.connection - 188. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[INFO ] 14:46:28.561 jdbc.connection - 189. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[INFO ] 14:46:28.563 jdbc.connection - 190. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[INFO ] 14:46:28.607 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:46:28.614 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[INFO ] 14:46:28.617 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[INFO ] 14:46:28.617 o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 14:46:28.618 o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 14:46:28.628 com.board.BoardApplication - Started BoardApplication in 0.558 seconds (JVM running for 2778.483)
+[INFO ] 14:46:28.629 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:47:06.351 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:47:06.352 o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 14:47:06.352 com.zaxxer.hikari.HikariDataSource - HikariPool-23 - Shutdown initiated...
+[INFO ] 14:47:06.354 jdbc.connection - 181. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+[INFO ] 14:47:06.355 jdbc.connection - 182. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+[INFO ] 14:47:06.356 jdbc.connection - 183. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+[INFO ] 14:47:06.356 jdbc.connection - 184. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+[INFO ] 14:47:06.357 jdbc.connection - 185. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+[INFO ] 14:47:06.357 jdbc.connection - 186. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+[INFO ] 14:47:06.358 jdbc.connection - 187. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+[INFO ] 14:47:06.358 jdbc.connection - 188. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+[INFO ] 14:47:06.358 jdbc.connection - 189. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+[INFO ] 14:47:06.359 jdbc.connection - 190. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+[INFO ] 14:47:06.359 com.zaxxer.hikari.HikariDataSource - HikariPool-23 - Shutdown completed.
